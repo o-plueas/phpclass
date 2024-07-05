@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+   width:500px;
+   margin: 30px auto;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+   padding:20px 30px;
+   border-radius: 5px;
+
+
+}
+h1{
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+
+
+label, input:not(.sbt){
+    width: 100%;
+    margin: 7px;
+
+}
+
+input{
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(225, 236, 238);
+    border-radius: 10px;
+}
+
+.sbt{
+    width: 100px;
+    margin: 10px 5px 1px 100px;
+}
+
+.sbt:hover{
+    background-color: black;
+    color: white;
+}
+
+
+input:focus{
+    background-color: rgb(126, 126, 242);
+    color:white;
+}

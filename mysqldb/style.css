@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(159, 98, 98, 0.7), rgba(0,0,0,0.7)), url(images/img3.jpg);
+    display: grid;
+    color:#fff;
+    transition: all 0.5 linear;
+
+}
+
+#main-header{
+    background: linear-gradient(transparent, white);
+    height: 60vh;
+}
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0 1px 2px rgba(44, 42, 42, 0.6);
+}
+
+#header .logo{
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+#header .nav{
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+
+#header .nav ul{
+    list-style-type: none;
+    
+}
+
+#header .nav ul li{
+display: inline;   
+margin: 10px 20px; 
+}
+
+
+
+#header .nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+
+
+}
+
+#header .acc{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+#hero{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h2, p{
+    margin-bottom: 15px;
+
+}
+
+#hero h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+
+
+#hero p{
+    color: rgb(29, 32, 81)
+}
+
+#hero .input-area{
+    position: relative;
+}
+
+#hero .input-area .txt{
+    width:450px;
+    padding: 15px 10px;
+    font-size: 15px;
+    outline:none;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+
+
+#hero .input-area .fas{
+font:30px;
+color:black;
+position: absolute;
+top: 15px;
+left:15px;
+
+}
+
+
+#hero .input-area .fas:hover{
+    color:rgb(29, 32, 81);
+    font-weight: 500;
+    }
+    
+
+
+
+#hero .input-area .subt{
+    position: absolute;
+    top: 3px;
+    right:6px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(29, 32, 81);
+    color:white;
+
+}
+
+#hero .input-area .subt:hover{
+    color:black;
+    background-color: transparent;
+    border: 3px solid rgb(29, 32, 81);
+
+}
+
+
+
+#section{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section .box{
+    margin-right: 30px;
+    background-color: #fff;
+    color:black;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+#section .box .post-img{
+    width: 50px;
+    height:50px;
+    background-color: red;
+
+
+}
+
+
+#dection .box .post-img img{
+    width: 50%;
+    height:50%;
+
+
+}
+#section .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    height: 60vh;
+    flex-direction: column;
+}
+
+#section .form-container .input-box{
+    width:100%;
+    border-radius: 10px;
+    margin:10px;
+    padding:20px 10px;
+    font-size: 18px;
+
+   
+}
+
+
+
+/* #section .form-container input{
+    padding:20px 10px;
+} */
+
+#section .form-container .btn{
+    width:50%;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding:20px 10px;
+
+}
+
+
+
+#footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    padding: 20px;
+   
+}
+
+
+
+
+
+#footer p span{
+    color:crimson;
+   
+}
+
+
+
+.retireve{
+    background-color: white;
+}
